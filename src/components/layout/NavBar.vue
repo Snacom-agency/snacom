@@ -3,9 +3,9 @@
   <nav class="sticky w-full top-0 z-50 bg-white border-b boreder-solid boreder-[#817e95]">
     <div class="flex justify-between container mx-auto items-center pt-6 pb-6 z-10">
       <div class="flex gap-20 items-center">
-        <a href="#" class="font-['Oswald'] text-[#150f3e] cursor-pointer text-3xl"
-          >evento</a
-        >
+        <a href="#" class="text-[#150f3e] cursor-pointer">
+          <img class="h-12" src="/assets/logo/snacom-logo.svg" alt="snacom logo" />
+        </a>
         <div class="flex gap-8 items-center">
           <a href="#services" class="hover:text-[#4833cc] transition ease-in">خدماتنا</a>
           <a href="#articles" class="hover:text-[#4833cc] transition ease-in">مقالات</a>
