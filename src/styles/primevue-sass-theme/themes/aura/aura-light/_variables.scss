@@ -30,12 +30,12 @@ $shade950: #020617 !default;
 $disabledInputBg: $shade200 !default;
 
 //global
-$fontFamily: "Inter var", sans-serif !default;
+$fontFamily:'Red Hat Display Variable', sans-serif !default;
 $fontSize: 1rem !default;
 $fontWeight: normal !default;
 $textColor: $shade700 !default;
 $textSecondaryColor: $shade500 !default;
-$borderRadius: 6px !default;
+$borderRadius: 14px !default;
 $transitionDuration: 0.2s !default;
 $formElementTransition: background-color $transitionDuration,
     color $transitionDuration, border-color $transitionDuration,
