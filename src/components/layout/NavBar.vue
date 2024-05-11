@@ -1,3 +1,8 @@
+<script setup lang="ts">
+
+</script>
+
+
 <template>
   <!-- Navbar -->
   <nav class="sticky w-full top-0 z-50 bg-white border-b boreder-solid boreder-[#817e95]">
@@ -34,6 +39,8 @@
         >
           تسجيل الدخول
         </div>
+        <Button label="Submit" />
+
       </div>
     </div>
   </nav>
