@@ -5,8 +5,8 @@ import ServicesSection from "./components/ServicesSection.vue";
 </script>
 
 <template>
-  <div class="absolute bg-[#0a001f] w-full h-screen">
-    <img class="mix-blend-screen	saturate-20	" src="/assets/photos/hero-bg.svg">
+  <div class="absolute bg-[#0a001f] w-screen min-h-screen max-lg">
+    <img class="mix-blend-screen	saturate-20 h-full 	" src="/assets/photos/hero-bg.svg">
     <img class="absolute w-100 -ml-40 -mb-50 left-0 bottom-0 " src="/assets/photos/planet.png" >
   </div>
   <div
