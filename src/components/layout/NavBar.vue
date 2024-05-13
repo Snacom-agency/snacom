@@ -9,7 +9,7 @@ const visible = ref(false);
 <template>
   <!-- Navbar -->
   <nav class="absolute w-full top-0 z-50">
-    <div class=" flex justify-between container mx-auto items-center pt-6 pb-6 z-10">
+    <div class=" flex justify-between container mx-auto items-center pt-6 pb-6 max-lg:px-4 z-10">
       <div class="flex gap-20 items-center">
         <a href="#" class="text-[#150f3e] cursor-pointer">
           <img class="h-12" src="/assets/logo/snacom-logo.svg" alt="snacom logo" />
@@ -19,7 +19,13 @@ const visible = ref(false);
           <a href="#articles" class="hover:text-[#4833cc] transition ease-in">Blog</a>
           <a href="#" class="hover:text-[#4833cc] transition ease-in">About us</a>
         </div>
-        <Sidebar v-model:visible="visible" ></Sidebar>
+        <Sidebar v-model:visible="visible" >
+          <div class="flex flex-col gap-8 justify-start">
+          <a href="#services" class="hover:text-[#4833cc] transition ease-in">Services</a>
+          <a href="#articles" class="hover:text-[#4833cc] transition ease-in">Blog</a>
+          <a href="#" class="hover:text-[#4833cc] transition ease-in">About us</a>
+        </div>
+        </Sidebar>
 
       </div>
       <div class="flex items-center gap-4 ">
