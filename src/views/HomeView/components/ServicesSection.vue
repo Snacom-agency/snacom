@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const services = [
   {
     title:'Lorem ipsum dolor sit amet',
