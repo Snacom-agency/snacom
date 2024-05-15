@@ -1,5 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
+import AboutSection from "./components/AboutSection.vue";
 import HeroSection from "./components/HeroSection.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 </script>
@@ -24,6 +25,7 @@ import ServicesSection from "./components/ServicesSection.vue";
   </div>
   <main class="w-full relative">
     <HeroSection />
+    <AboutSection/>
     <ServicesSection />
   </main>
 </template>
