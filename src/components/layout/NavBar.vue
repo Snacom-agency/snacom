@@ -18,6 +18,7 @@ const visible = ref(false);
         <div class="flex gap-8 items-center text-white max-lg:hidden">
           <a href="#about" class="hover:text-[#4833cc] transition ease-in">About us</a>
           <a href="#services" class="hover:text-[#4833cc] transition ease-in">Services</a>
+          <a href="#work" class="hover:text-[#4833cc] transition ease-in">Work</a>
         </div>
         <Sidebar v-model:visible="visible">
           <template #container="{ closeCallback }">
@@ -50,6 +51,14 @@ const visible = ref(false);
                 >
                   <i class="i-tabler-universe"></i>
                   <span>Services</span>
+                </a>
+                <a
+                  v-ripple
+                  href="#work"
+                  class="w-full flex gap-2 items-center py-2 px-4 cursor-pointer hover:bg-[#edeafa] rounded-3 transition-duration-150 transition-colors p-ripple"
+                >
+                  <i class="i-tabler-ruler"></i>
+                  <span>Work</span>
                 </a>
               </div>
             </div>
