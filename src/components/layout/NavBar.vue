@@ -18,7 +18,6 @@ const visible = ref(false);
         <div class="flex gap-8 items-center text-white max-lg:hidden">
           <a href="#about" class="hover:text-[#4833cc] transition ease-in">About us</a>
           <a href="#services" class="hover:text-[#4833cc] transition ease-in">Services</a>
-          <a href="#articles" class="hover:text-[#4833cc] transition ease-in">Blog</a>
         </div>
         <Sidebar v-model:visible="visible">
           <template #container="{ closeCallback }">
