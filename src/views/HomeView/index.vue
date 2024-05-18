@@ -1,6 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import AboutSection from "./components/AboutSection.vue";
+import CTASection from "./components/CTASection.vue";
 import HeroSection from "./components/HeroSection.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 import WorkSection from "./components/WorkSection.vue";
@@ -32,5 +33,6 @@ import WorkSection from "./components/WorkSection.vue";
     <AboutSection />
     <ServicesSection />
     <WorkSection />
+    <CTASection/>
   </main>
 </template>
