@@ -1,7 +1,7 @@
 <template>
 <section
 id="CTA"
-    class="flex flex-col gap-4 items-center w-full py-12"
+    class="flex flex-col gap-4 items-center w-full py-12 max-lg:px-4"
 >
     <div class="relative bg-[#4833cc] rounded-12 p12 container mx-auto flex flex-col gap-4 justify-center items-center text-center overflow-hidden">
         <img class="absolute opacity-10 filter-grayscale-40" src="/assets/photos/cta-background.jpg">
