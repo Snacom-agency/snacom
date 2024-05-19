@@ -5,6 +5,7 @@ import CTASection from "./components/CTASection.vue";
 import HeroSection from "./components/HeroSection.vue";
 import ServicesSection from "./components/ServicesSection.vue";
 import WorkSection from "./components/WorkSection.vue";
+import ContactUs from "./components/ContactUs.vue"
 </script>
 
 <template>
@@ -34,5 +35,6 @@ import WorkSection from "./components/WorkSection.vue";
     <ServicesSection />
     <WorkSection />
     <CTASection/>
+    <ContactUs />
   </main>
 </template>
