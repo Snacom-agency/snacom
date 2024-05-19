@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import Sidebar from "primevue/sidebar";
 import { ref } from "vue";
+import { loadLanguageAsync } from '../../main'
+import { useI18n} from 'vue-i18n'
+const i18n=useI18n()
 
 const visible = ref(false);
 </script>
@@ -73,6 +76,12 @@ const visible = ref(false);
           icon="i-tabler-menu-2"
           outlined
         />
+        <Button
+        :onClick="()=>loadLanguageAsync($i18n.locale==='en'?'ar' :'en')"
+        outlined
+        icon="i-tabler-language"
+        />
+
       </div>
     </div>
   </nav>
