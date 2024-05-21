@@ -5,4 +5,5 @@ import NavBar from "../components/layout/NavBar.vue";
 <template>
   <NavBar />
   <RouterView />
+  <Footer/>
 </template>
